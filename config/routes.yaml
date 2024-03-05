@@ -1,0 +1,6 @@
+#controllers:
+#   resource: ../src/Controller/
+#    type: attribute
+api:
+    path: /
+    controller: App\Controller\ApiController::process
